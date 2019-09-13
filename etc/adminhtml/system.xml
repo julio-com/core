@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Df_Config:etc/system_file.xsd'
+>
+    <system>
+        <tab id='julio' translate='label' sortOrder='-100'>
+            <label>Julio</label>
+        </tab>
+		<section
+			id='julio_intelisis'
+			showInDefault='1' showInWebsite='1' showInStore='1'
+			translate='label'
+		>
+			<tab>julio</tab>
+			<label>Intelisis Integration</label>
+			<class>separator-top</class>
+			<!-- 2015-10-05 https://mage2.pro/t/114 -->
+			<resource>Julio_Intelisis::config</resource>
+		</section>
+    </system>
+</config>
